@@ -4,7 +4,7 @@ import os
 from cvzone.PoseModule import PoseDetector
 
 cap=cv2.VideoCapture(0)
-detector = PoseDetector()
+detector = PoseDetector() 
 
 shirtpath= "C:/Users/Soumya/OneDrive/Desktop/3d_myntra/Resources"
 listShirts = os.listdir(shirtpath)
